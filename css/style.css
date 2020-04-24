@@ -1,53 +1,81 @@
 BODY{ font-family: verdana; }
+h3{font-weight: bold;
+margin-left: 15px;}
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+a{display: block;}
+main{overflow: hidden;}
+footer{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #BDBDBD;
+  }
+
 #encabezado{
     border-bottom: 1px solid rgb(54,54,54);
+    margin-bottom: 20px;
 }
-
-.float-left{
-    float: left;
+#lista-platos{
+    list-style-type: none;
+    padding: 5px;
 }
-
+#contenedor-cuerpo{
+    padding:50px;
+    width: 1000px;
+}
 #navegacion{
-    padding-top: 30px;
     width: 20%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 #contenido{
     width:80%;
+    border-left: 2px solid gray;
+    box-sizing: border-box;
+    padding:15px;
+    box-sizing: border-box;
+}
+#logo{
+    height: 100px;
 }
 
-h3{
-    font-weight: bold;
-}
-
-main{
-    overflow: hidden;
-}
-
-a{
-    display: block;
-}
 .navegacion-menu{
-list-style-type: none;
-padding: 0px;
-
+    list-style-type: none;
+    padding-left: 0px;
 }
-
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
 .navegacion-menu a{
- text-decoration: none;
- color: black;
- margin-right: 30px;
- line-height: 30px;
-}
-
-#contenedor-cuerpo{
-    padding:50px;
-    width: 970px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    line-height: 30px;
 }
 .img-derecha{
     float: right;
 }
-#lista-platos{
-    list-style-type: none;
-    padding: 15px;
-    margin-left: 20px;
+.item-lista-platos{
+    padding-left: 30px;
 }
+.logo{
+    float: left;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+.contacto{
+    float: right;
+  }
+.cont{
+  text-decoration: none;
+  font-size: 16px;
+  color:white;
+  font-weight: bold;
+  }
+

@@ -1,0 +1,22 @@
+main{
+    border: 1px solid rgb(228, 214, 61);
+    padding: 40px;
+    font-family: verdana;
+}
+button{
+    border-radius: 6px;
+    width: 380px;
+    height: 30px;
+    border:none;
+    color: white;
+    background-color: rgb(228, 214, 61);
+}
+#resetear{
+    color: rgb(228, 214, 61);
+    background: transparent;
+    border: 1px solid rgb(228, 214, 61);
+}
+#volver{
+    color: rgb(228, 214, 61);
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <div id="app">
+        <div id="contenedor-cuerpo">
+        <main>
+            <div>
+                <a id="volver" href="index.html">volver</a>
+                <h3>¿De donde sos?</h3>
+                <br>
+                <select name="opciones" id="opciones">
+                    <option value="#">Seleccioná una opción</option>
+                    <option value="#">Opción 1</option>
+                    <option value="#">Opción 2</option>
+                    <option value="#">Opción 3</option>
+                </select>
+            </div>
+            <div>
+                <h3>¿Qué te pareció la iluminación?</h3>
+                <p><input name="calificacion" value="1" type="radio">  Muy acorede</p>
+                <p><input name="calificacion" value="2" type="radio">  Buena, pero podría mejorar</p>
+                <p><input name="calificacion" value="3" type="radio">  Mala</p>
+            </div>
+            <div>
+                <h3>¿Qué tipo de plato fue el que más te gustó?</h3>
+                <p><input name="ElecPlato1" value="1" type="checkbox">  Entrada/p>
+                <p><input name="ElectPlato2" value="2" type="checkbox">  Plato principal</p>
+                <p><input name="ElectPlato3" value="3" type="checkbox">  Postre</p>
+                <p><input name="ElectPlato4" value="3" type="checkbox">  Otros</p>
+            </div>
+            <div>
+                <h3>¿Recomendarías el lugar?</h3>
+                <input name="recomendacion" value="1" type="radio">  Si
+                <input name="recomendacion" value="2" type="radio">  No
+            </div>
+            <div>
+                <h3>¿Porqué?</h3>
+                <textarea name="porque" id="" cols="90" rows="10"></textarea>
+            </div>
+            <div>
+                <h3>Dejános tus datos y nos pondremos en contacto con vos</h3>
+                <p>Nombre: <input type="text"></p>
+                <p>Email: <input type="text"></p>
+            </div>
+            <div>
+                <button id="enviar">Enviar</button>
+                <button id="resetear">Resetear</button>
+            </div>
+        </main>
+        </div>
+    </div>
+</body>
+</html>
